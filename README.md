@@ -14,6 +14,42 @@
 
 ---
 
+## 🎬 데모
+
+<p align="center">
+  <!-- 로컬 실행 화면을 녹화해 docs/demo.gif 로 커밋하면 아래에 표시됩니다 -->
+  <img src="docs/demo.gif" alt="WayWell 데모" width="320"/>
+</p>
+
+> 출발·도착 검색 → **신체 노출부하 최소 경로 추천** → 실시간 이동 안내(지도·그늘막·버스 도착)
+>
+> 🔗 **배포 데모:** https://waywell.testgogo.site *(배포 상태에 따라 접속이 제한될 수 있습니다)*
+
+---
+
+## 🧩 기술 스택
+
+**Backend** · ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white) ![DRF](https://img.shields.io/badge/DRF-A30000?logo=django&logoColor=white) ![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?logo=gunicorn&logoColor=white)
+
+**Frontend** · ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![PWA](https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white)
+
+**External API** · Tmap(대중교통·보행자 경로) · ODsay(경로 폴백) · 기상청(날씨·자외선) · 에어코리아(미세먼지) · 국토부 TAGO(버스 도착) · 카카오(지도·장소) · 공공데이터포털(전국 그늘막쉼터)
+
+---
+
+## 👥 팀 & 역할
+
+> 멋쟁이사자처럼 14기 중앙 해커톤 · 팀 **멋사 야호~**
+
+| 파트 | 담당 |
+|---|---|
+| **백엔드 — 경로·환경·장소** ([@thinghon](https://github.com/thinghon)) | 대중교통 경로 탐색 엔진(Tmap·ODsay), 신체 노출부하 모델(구간 단위), 환경 API(기상청·에어코리아·TAGO) 연동, 이동 중 실시간 안내, 전국 그늘막 데이터 파이프라인 |
+| 기타 | 인증·UI 디자인·주간 리포트·LLM 코칭 등 (팀원) |
+
+📜 **[@thinghon 의 커밋만 보기](https://github.com/thinghon/waywell/commits?author=thgh1111@naver.com)**
+
+---
+
 ## 🛠️ 프로젝트 실행 방법 (Getting Started)
 
 ### 🐍 Server (Backend)
